@@ -11,16 +11,16 @@ using namespace std;
 int main()
 {
     srand (time(NULL));
-    class[] arr;
+    Vehiculo arr[5];
     int cont=0;
-    Vehiculo NewVehiculo;
+    //Vehiculo NewVehiculo;
     Car carro("Convertible");
     Truck camion("Doble Carga");
     Bicicle bici("Tanden");
 
-    for(int i=0;i>5;i++)
+    for(int i=0;i<5;i++)
     {
-        cont = rand() % 3);
+        cont = (rand() % 3);
         if(cont == 0)
             arr[i] = Car();
         else if(cont == 1)
